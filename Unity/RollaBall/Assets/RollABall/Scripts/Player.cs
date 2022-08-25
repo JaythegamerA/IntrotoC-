@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
 
     public Text ScoreText;
 
+   
+
     public int points = 0;
 
     public float boostPower = 0;
