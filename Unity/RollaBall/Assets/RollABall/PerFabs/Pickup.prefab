@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7800602078387589970}
   - component: {fileID: 7800602078387589981}
   - component: {fileID: 7800602078387589980}
-  - component: {fileID: 7800602078387589968}
+  - component: {fileID: 8291619695522826978}
   m_Layer: 0
   m_Name: Pickup
   m_TagString: Untagged
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f743fb3867c09eb479531c66d1fede49, type: 2}
+  - {fileID: 2100000, guid: e2a4d4d8934ad1a49ba6c620cb46226d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7800602078387589968
+--- !u!114 &8291619695522826978
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,6 +105,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7800602078387589983}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707a109acf6cab44c9da9bb89740b6e0, type: 3}
+  m_Script: {fileID: 11500000, guid: fd7ba51ea923ace49bf63daa5688d11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
