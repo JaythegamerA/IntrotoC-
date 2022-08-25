@@ -1,27 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using UnityEngine;                      // for default
+using UnityEngine.UI;                   // for UI Text
+using UnityEngine.SceneManagement;      // for SceneManager
+
+using TMPro;                            // for TextMeshPro
+
 public class LevelTimer : MonoBehaviour
 {
-    public int timelimit = 120;
+    // Seconds
+    public int timeLimit = 120;
 
-    public Text Timertext;
+    // public TMP_Text timerText;
+    public Text timerText;
 
     private float timeElapsed = 0.0f;
 
-    public void Update()
+    private void Update()
     {
         timeElapsed += Time.deltaTime;
-        Debug.Log(timeElapsed);
-       int timeReaming = timelimit - (int)timeElapsed;
 
-        if(timeReaming < 0)
+        // calculate time remaining
+        int timeRemaining = timeLimit - (int)timeElapsed;
+        if (timeRemaining < 0)
         {
-            timeReaming=0;
+            // ensure time doesn't go below zero
+            timeRemaining = 0;
+
             SceneManager.LoadScene(0);
         }
-        Timertext.text = timeReaming.ToString("00.00");
+
+        int minutesLeft = timeRemaining / 60;
+        int secondsLeft = timeRemaining % 60;
+
+        // update the UI
+        timerText.text = minutesLeft.ToString("00") + ":" + secondsLeft.ToString("00");
     }
 }

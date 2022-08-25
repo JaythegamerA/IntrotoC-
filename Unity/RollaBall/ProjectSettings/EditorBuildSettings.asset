@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
     path: Assets/RollABall/Scenes/Mainmenu.unity
-    guid: dd5487f79324b34499ea15c59cd09106
+    guid: e995af9e8ec296f4991132d9869bbf2b
   - enabled: 1
     path: Assets/RollABall/Scenes/SecretScene.unity
-    guid: 9f2cbf281d0512342a64bd52ba5e1943
+    guid: d6748d32303deb84c8082749a766f108
+  - enabled: 1
+    path: Assets/RollABall/Scenes/RollAballLevel.unity
+    guid: 6fcdbe3bfdc1ad44487178ff3cb98a9f
   m_configObjects: {}
