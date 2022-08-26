@@ -10,8 +10,11 @@ public class Player : MonoBehaviour
 {
     private Rigidbody rbody;
     private MeshRenderer meshRend;
+    private AudioSource audioSrc;
 
     public TMP_Text scoreText;
+
+    public List<AudioClip> boostSounds = new List<AudioClip>();
 
     public List<Material> colorMaterials = new List<Material>();
     private int currentColorIndex = 0;
@@ -28,6 +31,7 @@ public class Player : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody>();
         meshRend = GetComponent<MeshRenderer>();
+        audioSrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -71,6 +75,9 @@ public class Player : MonoBehaviour
                 ForceMode.Impulse);
 
             boostTimer = boostCooldown;
+
+            AudioClip selectedBoost = boostSounds[Random.Range(0, boostSounds.Count)];
+            audioSrc.PlayOneShot(selectedBoost);
         }
 
         // score UI

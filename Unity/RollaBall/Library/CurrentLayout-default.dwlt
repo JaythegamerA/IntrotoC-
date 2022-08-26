@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 91
+  controlID: 35
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 92
+  controlID: 36
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 37
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/RollABall
+    - Assets/RollABall/Audio
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/RollABall
+  - Assets/RollABall/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\s229040\Repo\Unit1\Unity\RollaBall
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a83c0000
-    m_LastClickedID: 15528
-    m_ExpandedIDs: 00000000a43c000000ca9a3b
+    m_SelectedIDs: bc440000
+    m_LastClickedID: 17596
+    m_ExpandedIDs: 00000000a43c0000ae3c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffff
+      m_ExpandedIDs: 52fbffff903b0000003c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 118.89645, y: -57.852646, z: 89.04641}
+    m_Target: {x: 91.69285, y: 14.297208, z: -7.7971916}
     speed: 2
-    m_Value: {x: 118.89645, y: -57.852646, z: 89.04641}
+    m_Value: {x: 91.69285, y: 14.297208, z: -7.7971916}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.30637914, y: -0.059686918, z: 0.019221772, w: -0.9499077}
+    m_Target: {x: 0.02805254, y: 0.5820788, z: -0.020074433, w: 0.81249595}
     speed: 2
-    m_Value: {x: -0.30637914, y: -0.059686918, z: 0.01922177, w: -0.9499077}
+    m_Value: {x: 0.028080441, y: 0.58081436, z: -0.020030776, w: 0.813305}
   m_Size:
-    m_Target: 86.71249
+    m_Target: 1.775255
     speed: 2
-    m_Value: 86.71249
+    m_Value: 1.475255
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -616,7 +616,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.23069817, y: -0.011094532, z: 0.0026306368, w: -0.9729634}
+  m_LastSceneViewRotation: {x: -0.17713076, y: -0.5501448, z: 0.120686255, w: -0.8071711}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -671,8 +671,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -554.5
     m_HBaseRangeMax: 554.5
-    m_VBaseRangeMin: -270
-    m_VBaseRangeMax: 270
+    m_VBaseRangeMin: -259.5
+    m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -689,11 +689,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1109
-      height: 540
+      height: 519
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 554.5, y: 270}
+    m_Translation: {x: 554.5, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -701,9 +701,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -554.5
-      y: -270
+      y: -259.5
       width: 1109
-      height: 540
+      height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1109, y: 540}
