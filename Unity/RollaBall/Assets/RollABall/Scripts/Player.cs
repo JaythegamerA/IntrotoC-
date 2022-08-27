@@ -19,12 +19,17 @@ public class Player : MonoBehaviour
     public List<Material> colorMaterials = new List<Material>();
     private int currentColorIndex = 0;
 
+    public float speed = 8.0f;
+
     public int points = 0;
     public float boostPower = 5.0f;
 
     // Time until you boost again
     public float boostCooldown = 5.0f;
     private float boostTimer = 0;
+
+    private float horizontal = 0;
+    private float forward = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -60,9 +65,8 @@ public class Player : MonoBehaviour
         }
 
         // movements
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float forward = Input.GetAxisRaw("Vertical");
-        rbody.AddForce(horizontal, 0.0f, forward);
+        horizontal = Input.GetAxisRaw("Horizontal");
+        forward = Input.GetAxisRaw("Vertical");
 
         // boost
         boostTimer -= Time.deltaTime;
@@ -82,6 +86,13 @@ public class Player : MonoBehaviour
 
         // score UI
         scoreText.text = points.ToString();
+    }
+
+    private void FixedUpdate()
+    {
+        Vector3 desiredMovement = new Vector3(horizontal, 0.0f, forward);
+        desiredMovement = Vector3.ClampMagnitude(desiredMovement, 1);
+        rbody.AddForce(desiredMovement * speed);
     }
 
     private void OnDrawGizmos()
