@@ -1,9 +1,6 @@
 ﻿using System;
 
-/*
- *      Jonathan Arzate  /  / 2022 Intro to C# Assessment
- *  Task 2: Exercises on Arrays
- */
+
 
 
 namespace AIE
@@ -44,8 +41,7 @@ namespace AIE
             }
         }
 
-        //Exercise 1: Sum of Array
-        //given an array of integers, return the sum of all elements of the array
+
         static int sumNumbers(int[] numbers)
         {
             int sum = 0;
@@ -56,8 +52,7 @@ namespace AIE
             return sum;
         }
 
-        //Exercuse 2: Sorting an Array (Descending)
-        //given an array, sort in descending order
+
         static void sortDescending(int[] numbers)
         {
             int temp = 0;                                                               
