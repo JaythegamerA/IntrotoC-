@@ -784,14 +784,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'wasd to move
-
-    [ ] change colors
-
-    Bule cubes grow and shink your
-    size
-
-'
+  m_Text: "wasd to move \n[ ] change colors \nBule cubes grow and shink your size
+    \nThe green cylinder goes in the green collection area"
 --- !u!222 &1478417876
 CanvasRenderer:
   m_ObjectHideFlags: 0
