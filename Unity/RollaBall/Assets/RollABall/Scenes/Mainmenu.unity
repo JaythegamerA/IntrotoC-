@@ -748,7 +748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314.82, y: 135.78802}
+  m_AnchoredPosition: {x: -335, y: 200}
   m_SizeDelta: {x: 430.84, y: 152.4814}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1478417875
@@ -785,7 +785,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "wasd to move \n[ ] change colors \nBule cubes grow and shink your size
-    \nThe green cylinder goes in the green collection area"
+    \nThe green objects goes in the green collection area"
 --- !u!222 &1478417876
 CanvasRenderer:
   m_ObjectHideFlags: 0
