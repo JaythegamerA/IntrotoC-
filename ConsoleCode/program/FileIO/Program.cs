@@ -1,38 +1,19 @@
-﻿using System;
-using System.IO;
-
-namespace AIE
+﻿namespace AIE
 {
     class Program
     {
         static void Main()
         {
-            //
-            // System.IO.File
-            //
-
-            // write to a file using System.IO.File
-            string bio = "John Madden.\nPretty cool guy.";
-            File.WriteAllText(@"C:\Secrets\aboutJohnMadden.txt", bio);
-
-            // read from a file using System.IO.File
-            string content = File.ReadAllText(@"C:\Secrets\aboutJohnMadden.txt");
-
-            //
-            // StreamWriter/StreamReader
-            //
-
-            // writing text to a file
-            using (StreamWriter writer = new StreamWriter("aboutTerryNguyen.txt"))
+            //writing text to a file
+            using (StreamWriter writer = new StreamWriter("aboutJonathanArzate.txt"))
             {
-                writer.WriteLine("Jonathan Arzate.");
-                writer.WriteLine("Likes oranges.");
-                writer.WriteLine("Favorite color? Orange.");
-                writer.WriteLine("Favorite number? 5.");
+                writer.WriteLine("Jonathan Arzate");
+                writer.WriteLine("Favorite color? Crimson Red");
+                writer.WriteLine("Favorite Number? 26.");
             }
 
-            // reading text from a file
-            using (StreamReader reader = new StreamReader("aboutTerryNguyen.txt"))
+            //reading text from a file
+            using (StreamReader reader = new StreamReader("aboutJonathanArzate.txt"))
             {
                 while (!reader.EndOfStream)
                 {
@@ -41,22 +22,34 @@ namespace AIE
                 }
             }
 
+            /*
+             *      level=5
+             *      exp=10
+             *      atk=2
+             */
+
             //
-            // Hello Save File
+            // hello save file
             //
+            //writing text to a file
+            using (StreamWriter writer = new StreamWriter("saveData.txt"))
+            {
+                writer.WriteLine("level=2");
+                writer.WriteLine("exp=5");
+                writer.WriteLine("atk=1");
+            }
+
+            //reading text from a file
             using (StreamReader reader = new StreamReader("saveData.txt"))
             {
                 while (!reader.EndOfStream)
                 {
                     string line = reader.ReadLine();
                     string[] parts = line.Split('=');
-
-                    int num = 0;
-                    int.TryParse(parts[1], out num);
-
-                    Console.WriteLine(parts[0] + " is " + num);
+                    Console.WriteLine(parts[0] + " is " + parts[1]);
                 }
             }
         }
     }
+
 }
