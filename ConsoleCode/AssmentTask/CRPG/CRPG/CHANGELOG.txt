@@ -1,0 +1,33 @@
+﻿Propose Changes for v0.0.3
++ Added CHANGELOG
++ Debug commands
++ Stats for player
++ Inventory
++ Random Number
++ WhereAmI
++ Shortcut navigation
++ Location requirement
+
+
+v0.0.3 completed on 4/18/22
+
+
+Proposed Changes for v0.0.4
++ Healing each move
++ Add quests to the system
++ Monster Detection
+
+v0.0.4 completed on 5/17/2022
+
+Proposed Changes for v0.0.5
++ Weapon equipping
++ Attack engine
++ Cleanup commands
++ Finish HELP system
+
+//ON VID 3
+
+v0.0.5 completed on 
+
+//TODO (-)
+//DONE (+)
