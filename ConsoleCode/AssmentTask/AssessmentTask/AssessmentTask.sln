@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroTask", "AssessmentTask\IntroTask.csproj", "{5141B66D-0EB2-43F0-9F6B-02AE5DD53DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroTask", "AssessmentTask\IntroTask.csproj", "{5141B66D-0EB2-43F0-9F6B-02AE5DD53DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{25F5D123-2FD2-4391-94BF-49FFB5F88606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileIO", "FileIO\FileIO.csproj", "{25F5D123-2FD2-4391-94BF-49FFB5F88606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{D6AB037B-9936-423E-9476-5E9AEB8D390C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{25F5D123-2FD2-4391-94BF-49FFB5F88606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F5D123-2FD2-4391-94BF-49FFB5F88606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F5D123-2FD2-4391-94BF-49FFB5F88606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AB037B-9936-423E-9476-5E9AEB8D390C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AB037B-9936-423E-9476-5E9AEB8D390C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AB037B-9936-423E-9476-5E9AEB8D390C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AB037B-9936-423E-9476-5E9AEB8D390C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
