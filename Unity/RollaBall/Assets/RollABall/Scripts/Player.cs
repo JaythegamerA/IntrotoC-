@@ -31,6 +31,19 @@ public class Player : MonoBehaviour
     private float horizontal = 0;
     private float forward = 0;
 
+    //
+    // IDamageable
+    //
+
+    public void TakeDamage(float damageTaken)
+    {
+        Debug.Log("DAMAGE TAKEN");
+    }
+
+    //
+    // Unity Messages
+    //
+
     // Start is called before the first frame update
     void Start()
     {
