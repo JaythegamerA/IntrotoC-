@@ -10,6 +10,7 @@ namespace AIE
             int wordCount = 0;
             List<string> words = new List<string>();
 
+            //make a word.txt file in the net6.0 folder 
             //read the file
             using (StreamReader reader = new StreamReader("words.txt"))
             {
